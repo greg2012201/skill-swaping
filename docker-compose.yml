@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: skill-swapping-db
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: skill-swapping-dev
+      POSTGRES_PASSWORD: skill-swapping-postgres
+      POSTGRES_DB: skill-swapping-db
