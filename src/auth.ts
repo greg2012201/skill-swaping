@@ -4,6 +4,9 @@ import { signIn, signOut } from "next-auth/react";
 export type ProviderOpt = "google" | "github";
 
 export const authConfig = {
+  pages: {
+    signIn: "/login",
+  },
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID as string,
