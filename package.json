@@ -18,7 +18,7 @@
     "prisma-format": "dotenv -e .env.local -- npx prisma format"
   },
   "dependencies": {
-    "@prisma/client": "^5.1.1",
+    "@prisma/client": "^5.6.0",
     "@types/node": "20.4.8",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
@@ -41,6 +41,6 @@
     "daisyui": "^3.5.1",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.5.2",
-    "prisma": "^5.1.1"
+    "prisma": "^5.6.0"
   }
 }
