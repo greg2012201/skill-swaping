@@ -18,7 +18,7 @@
     "prisma-format": "dotenv -e .env.local -- npx prisma format"
   },
   "dependencies": {
-    "@next-auth/prisma-adapter": "^0.4.4-canary.81",
+    "@auth/prisma-adapter": "^1.0.6",
     "@prisma/client": "^5.6.0",
     "@types/node": "20.4.8",
     "@types/react": "18.2.18",
